@@ -1,3 +1,29 @@
 // @import "variables.scss";
 
 
+// variables
+$bgc2 : #f0f0f0;
+$fontColor1: #626262;
+$fontColor2: #b4ad9e;
+
+
+
+// mixins
+
+@mixin fontPattern1{
+    font-size: 14px;
+    color: $fontColor1;
+}
+
+@mixin fontPattern2{
+    font-size: 30px;
+    color: $fontColor1;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+@mixin fontPattern3{
+    font-size: 14px;
+    color: $fontColor2;
+    padding: 15px 0;
+}
