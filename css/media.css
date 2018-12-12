@@ -14,7 +14,7 @@
     font-size: 13px;
   }
   .blog_wrapper h2 {
-    font-size: 40px;
+    font-size: 32px;
     color: #626262;
     padding-top: 5px;
     padding-bottom: 25px;
@@ -38,7 +38,7 @@
     font-size: 13px;
   }
   .blog_wrapper h2 {
-    font-size: 40px;
+    font-size: 32px;
     color: #626262;
     padding-top: 5px;
     padding-bottom: 25px;
@@ -57,6 +57,9 @@
   }
   header nav li:last-child a {
     padding-right: 105px !important;
+  }
+  .item_wrapper h2 {
+    font-size: 28px;
   }
 }
 /*# sourceMappingURL=media.css.map */

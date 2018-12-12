@@ -22,7 +22,7 @@ header nav li:last-child a {
 
 .logo {
   color: #000000;
-  font-size: 40px;
+  font-size: 32px;
   font-family: 'Inconsolata', monospace;
   letter-spacing: 5px;
 }
@@ -55,7 +55,27 @@ header nav li:last-child a {
 }
 
 .blog_wrapper h2 {
-  font-size: 40px;
+  font-size: 32px;
+  color: #626262;
+  padding-top: 5px;
+  padding-bottom: 25px;
+}
+
+.item_wrapper p {
+  font-size: 14px;
+  color: #626262;
+  font-family: 'Playfair Display', serif;
+}
+
+.item_wrapper p:first-of-type {
+  font-size: 14px;
+  color: #b4ad9e;
+  padding: 15px 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.item_wrapper h2 {
+  font-size: 32px;
   color: #626262;
   padding-top: 5px;
   padding-bottom: 25px;

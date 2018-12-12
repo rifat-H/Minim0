@@ -66,3 +66,19 @@ header {
     }
 }
 // blog end
+
+// contents start
+
+.item_wrapper{
+    p{
+        @include defaultFont;
+        &:first-of-type{
+            @include fontPattern3;
+        }
+    }
+    h2{
+        @include fontPattern2;
+    }
+}
+
+// contents end
