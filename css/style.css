@@ -80,4 +80,26 @@ header nav li:last-child a {
   padding-top: 5px;
   padding-bottom: 25px;
 }
+
+.newsletter {
+  padding: 110px 0;
+  background-color: #f0f0f0;
+}
+
+.newsWrapper h2 {
+  margin-bottom: 60px;
+}
+
+.newsWrapper input {
+  padding: 6px 34px 6px 0px;
+  border: none;
+  border-bottom: 1px solid black;
+  background: none;
+  width: 100%;
+}
+
+.newsWrapper img {
+  top: 107px;
+  left: 352px;
+}
 /*# sourceMappingURL=style.css.map */

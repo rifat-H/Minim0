@@ -13,13 +13,16 @@ body {
 // header start
 header {
     padding: 27px;
+
     nav {
         a {
             padding-right: 105px !important;
+
             &:hover {
                 color: #000000;
             }
         }
+
         li {
             &:last-child {
                 a {
@@ -36,6 +39,7 @@ header {
     font-family: 'Inconsolata', monospace;
     letter-spacing: 5px;
 }
+
 // header end
 
 
@@ -45,40 +49,74 @@ header {
 
 
 // blog start
-.blog_wrapper{
+.blog_wrapper {
     padding: 30px 0;
-    p{
+
+    p {
         @include defaultFont;
         word-spacing: 1px;
         letter-spacing: .5px;
 
-        &:first-of-type{
+        &:first-of-type {
             @include fontPattern3;
         }
 
-        &:last-child{
+        &:last-child {
             margin-top: 35px;
             @include fontPattern3;
         }
     }
-    h2{
+
+    h2 {
         @include fontPattern2;
     }
 }
+
 // blog end
 
 // contents start
 
-.item_wrapper{
-    p{
+.item_wrapper {
+    p {
         @include defaultFont;
-        &:first-of-type{
+
+        &:first-of-type {
             @include fontPattern3;
         }
     }
-    h2{
+
+    h2 {
         @include fontPattern2;
     }
 }
 
 // contents end
+
+// newsletter start
+
+    .newsletter{
+        padding: 110px 0;
+        background-color: $bgc2;
+    }
+
+    .newsWrapper{
+        // position: absolute;
+        h2{
+            margin-bottom: 60px;
+        }
+        input{
+            padding: 6px 34px 6px 0px;
+            border: none;
+            border-bottom: 1px solid black;
+            background: none;
+            width: 100%;
+
+        }
+
+        img{
+            top: 107px;
+            left: 352px;
+        }
+    }
+
+// newsletter end
