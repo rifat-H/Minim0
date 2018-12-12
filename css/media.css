@@ -1,11 +1,24 @@
 @media (max-width: 575.98px) {
   header {
-    padding-top: 20px;
+    padding: 27px;
   }
   header nav a {
     text-align: right;
     margin-top: 12px;
-    margin-right: -51px;
+    margin-right: -100px;
+  }
+  header nav li:last-child a {
+    padding-right: 105px !important;
+  }
+  .blog_wrapper P {
+    font-size: 13px;
+  }
+  .blog_wrapper h2 {
+    font-size: 40px;
+    color: #626262;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    font-size: 25px;
   }
 }
 
@@ -20,6 +33,16 @@
   }
   header nav li:last-child a {
     padding-right: 105px !important;
+  }
+  .blog_wrapper P {
+    font-size: 13px;
+  }
+  .blog_wrapper h2 {
+    font-size: 40px;
+    color: #626262;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    font-size: 33px;
   }
 }
 

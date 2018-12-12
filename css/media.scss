@@ -1,69 +1,120 @@
+@import "variables.scss";
+@import "mixins.scss";
+
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
+    // header start
     header {
-        padding-top: 20px;
+        padding: 27px;
 
         nav {
             a {
                 text-align: right;
                 margin-top: 12px;
-                margin-right: -51px;
+                margin-right: -100px;
+
+            }
+
+            li {
+                &:last-child {
+                    a {
+                        padding-right: 105px !important;
+                    }
+
+                }
+
             }
         }
     }
+
+    // header end
+
+    // blog start
+    .blog_wrapper {
+        P {
+            font-size: 13px;
+        }
+
+        h2 {
+            @include fontPattern2;
+            font-size: 25px;
+        }
+    }
+
+    // blog end
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
+
     // header start
     header {
         padding: 27px;
-    
+
         nav {
-            a{
+            a {
                 text-align: right;
                 margin-top: 12px;
                 margin-right: -100px;
 
             }
+
             li {
-                &:last-child{
-                    a{
+                &:last-child {
+                    a {
                         padding-right: 105px !important;
                     }
-                    
+
                 }
-                
+
             }
         }
     }
+
     // header end
+
+    // blog start
+    .blog_wrapper {
+        P {
+            font-size: 13px;
+        }
+
+        h2 {
+            @include fontPattern2;
+            font-size: 33px;
+        }
+    }
+
+    // blog end
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
+
     // header start
     header {
         padding: 27px;
-    
+
         nav {
-            a{
+            a {
                 text-align: right;
                 margin-top: 12px;
                 margin-right: -100px;
 
             }
+
             li {
-                &:last-child{
-                    a{
+                &:last-child {
+                    a {
                         padding-right: 105px !important;
                     }
-                    
+
                 }
-                
+
             }
         }
     }
+
     // header end
 }
 

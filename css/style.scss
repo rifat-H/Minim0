@@ -1,61 +1,31 @@
-// @import "variables.scss";
+@import "variables.scss";
+@import "mixins.scss";
 
-
-// variables
-$bgc2 : #f0f0f0;
-$fontColor1: #626262;
-$fontColor2: #b4ad9e;
-$fontFooter: #000000;
-$defaultFontSize: 14px;
-$titleFontSize: 40px;
-
-// mixins
-
-
-@mixin fontPattern2 {
-    font-size: $defaultFontSize;
-    color: $fontColor1;
-    padding-top: 5px;
-    padding-bottom: 20px;
-}
-
-@mixin fontPattern3 {
-    font-size: $defaultFontSize;
-    color: $fontColor2;
-    padding: 15px 0;
-}
 
 
 // global Rules
-
 body {
     font-size: $defaultFontSize;
     color: $fontColor1;
     font-family: 'Playfair Display', serif;
 }
 
-
-
-// header
-
+// header start
 header {
     padding: 27px;
-
     nav {
-        a{
+        a {
             padding-right: 105px !important;
-            &:hover{
+            &:hover {
                 color: #000000;
             }
         }
         li {
-            &:last-child{
-                a{
+            &:last-child {
+                a {
                     padding-right: 0 !important;
                 }
-                
             }
-            
         }
     }
 }
@@ -66,3 +36,33 @@ header {
     font-family: 'Inconsolata', monospace;
     letter-spacing: 5px;
 }
+// header end
+
+
+// banner start
+
+// banner end
+
+
+// blog start
+.blog_wrapper{
+    padding: 30px 0;
+    p{
+        @include defaultFont;
+        word-spacing: 1px;
+        letter-spacing: .5px;
+
+        &:first-of-type{
+            @include fontPattern3;
+        }
+
+        &:last-child{
+            margin-top: 35px;
+            @include fontPattern3;
+        }
+    }
+    h2{
+        @include fontPattern2;
+    }
+}
+// blog end

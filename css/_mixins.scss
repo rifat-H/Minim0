@@ -1,0 +1,20 @@
+// mixins
+@mixin defaultFont {
+    font-size: $defaultFontSize;
+    color: $fontColor1;
+    font-family: 'Playfair Display', serif;
+}
+
+@mixin fontPattern2 {
+    font-size: $titleFontSize;
+    color: $fontColor1;
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+@mixin fontPattern3 {
+    font-size: $defaultFontSize;
+    color: $fontColor2;
+    padding: 15px 0;
+    font-family: 'Ubuntu', sans-serif;
+}
