@@ -5,25 +5,62 @@
 $bgc2 : #f0f0f0;
 $fontColor1: #626262;
 $fontColor2: #b4ad9e;
-
-
+$fontFooter: #000000;
+$defaultFontSize: 14px;
+$titleFontSize: 40px;
 
 // mixins
 
-@mixin fontPattern1{
-    font-size: 14px;
-    color: $fontColor1;
-}
 
-@mixin fontPattern2{
-    font-size: 30px;
+@mixin fontPattern2 {
+    font-size: $defaultFontSize;
     color: $fontColor1;
     padding-top: 5px;
     padding-bottom: 20px;
 }
 
-@mixin fontPattern3{
-    font-size: 14px;
+@mixin fontPattern3 {
+    font-size: $defaultFontSize;
     color: $fontColor2;
     padding: 15px 0;
 }
+
+
+// global Rules
+
+body {
+    font-size: $defaultFontSize;
+    color: $fontColor1;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+// header
+
+header {
+    padding-top: 20px;
+
+    nav {
+        a{
+            padding-right: 60px !important;
+        }
+    }
+}
+
+.logo {
+    color: $fontFooter;
+    font-size: $titleFontSize;
+    font-family: 'Inconsolata', monospace;
+}
+
+
+// cus_menu {
+//     ul {
+//         li {
+//             a {
+//                 padding: 0px 30% !important;
+//             }
+//         }
+//     }
+// }

@@ -1,1 +1,20 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  font-size: 14px;
+  color: #626262;
+  font-family: 'Playfair Display', serif;
+}
+
+header {
+  padding-top: 20px;
+}
+
+header nav a {
+  padding-right: 60px !important;
+}
+
+.logo {
+  color: #000000;
+  font-size: 40px;
+  font-family: 'Inconsolata', monospace;
+}
+/*# sourceMappingURL=style.css.map */
