@@ -102,4 +102,20 @@ header nav li:last-child a {
   top: 107px;
   left: 352px;
 }
+
+.button {
+  margin: 140px 0;
+}
+
+.button button {
+  background: none;
+  border: none;
+  border: 1px solid #626262;
+  padding: 16px 39px;
+}
+
+.size20 {
+  font-size: 20px;
+  color: #626262;
+}
 /*# sourceMappingURL=style.css.map */

@@ -123,9 +123,23 @@ header {
 
 
 // contents 2 start
-
-    .contents2{
-        
-    }
-
 // contents 2 end
+
+// button start
+
+.button{
+    margin: 140px 0;
+    button{
+        background: none;
+        border: none;
+        border: 1px solid $fontColor1;
+        padding: 16px 39px;
+    }
+}
+
+.size20{
+    font-size: 20px;
+    color: $fontColor1;
+}
+
+// button end
