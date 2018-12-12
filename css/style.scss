@@ -44,6 +44,9 @@ header {
     nav {
         a{
             padding-right: 60px !important;
+            &:hover{
+                color: #000000;
+            }
         }
     }
 }

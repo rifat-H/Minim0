@@ -12,6 +12,10 @@ header nav a {
   padding-right: 60px !important;
 }
 
+header nav a:hover {
+  color: #000000;
+}
+
 .logo {
   color: #000000;
   font-size: 40px;
