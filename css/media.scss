@@ -3,6 +3,7 @@
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
+
     // header start
     header {
         padding: 27px;
@@ -84,14 +85,16 @@
             font-size: 33px;
         }
     }
+
     // blog end
 
     // button start
-    .button{
-        button{
+    .button {
+        button {
             padding: 15px 25px 15px 25px;
         }
     }
+
     // button end
 }
 
@@ -125,19 +128,21 @@
     // header end
 
     // contents start
-    .item_wrapper{
-        h2{
+    .item_wrapper {
+        h2 {
             font-size: 28px;
         }
     }
+
     // contents end
 
     // button start
-    .button{
-        button{
+    .button {
+        button {
             padding: 15px 25px 15px 25px;
         }
     }
+
     // button end
 
 }
