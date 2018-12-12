@@ -5,20 +5,25 @@ body {
 }
 
 header {
-  padding-top: 20px;
+  padding: 27px;
 }
 
 header nav a {
-  padding-right: 60px !important;
+  padding-right: 105px !important;
 }
 
 header nav a:hover {
   color: #000000;
 }
 
+header nav li:last-child a {
+  padding-right: 0 !important;
+}
+
 .logo {
   color: #000000;
   font-size: 40px;
   font-family: 'Inconsolata', monospace;
+  letter-spacing: 5px;
 }
 /*# sourceMappingURL=style.css.map */

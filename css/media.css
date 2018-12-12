@@ -11,23 +11,29 @@
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   header {
-    padding-top: 20px;
+    padding: 27px;
   }
   header nav a {
     text-align: right;
     margin-top: 12px;
-    margin-right: -51px;
+    margin-right: -100px;
+  }
+  header nav li:last-child a {
+    padding-right: 105px !important;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   header {
-    padding-top: 20px;
+    padding: 27px;
   }
   header nav a {
     text-align: right;
     margin-top: 12px;
-    margin-right: -51px;
+    margin-right: -100px;
+  }
+  header nav li:last-child a {
+    padding-right: 105px !important;
   }
 }
 /*# sourceMappingURL=media.css.map */

@@ -39,14 +39,23 @@ body {
 // header
 
 header {
-    padding-top: 20px;
+    padding: 27px;
 
     nav {
         a{
-            padding-right: 60px !important;
+            padding-right: 105px !important;
             &:hover{
                 color: #000000;
             }
+        }
+        li {
+            &:last-child{
+                a{
+                    padding-right: 0 !important;
+                }
+                
+            }
+            
         }
     }
 }
@@ -55,15 +64,5 @@ header {
     color: $fontFooter;
     font-size: $titleFontSize;
     font-family: 'Inconsolata', monospace;
+    letter-spacing: 5px;
 }
-
-
-// cus_menu {
-//     ul {
-//         li {
-//             a {
-//                 padding: 0px 30% !important;
-//             }
-//         }
-//     }
-// }

@@ -15,33 +15,59 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
+    // header start
     header {
-        padding-top: 20px;
-
+        padding: 27px;
+    
         nav {
-            a {
+            a{
                 text-align: right;
                 margin-top: 12px;
-                margin-right: -51px;
+                margin-right: -100px;
+
+            }
+            li {
+                &:last-child{
+                    a{
+                        padding-right: 105px !important;
+                    }
+                    
+                }
+                
             }
         }
     }
+    // header end
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {
+    // header start
     header {
-        padding-top: 20px;
-
+        padding: 27px;
+    
         nav {
-            a {
+            a{
                 text-align: right;
                 margin-top: 12px;
-                margin-right: -51px;
+                margin-right: -100px;
+
+            }
+            li {
+                &:last-child{
+                    a{
+                        padding-right: 105px !important;
+                    }
+                    
+                }
+                
             }
         }
     }
+    // header end
 }
+
+
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {}
