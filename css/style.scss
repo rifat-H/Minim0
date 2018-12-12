@@ -1,3 +1,4 @@
+// Imports
 @import "variables.scss";
 @import "mixins.scss";
 
@@ -15,18 +16,20 @@ header {
     padding: 27px;
 
     nav {
-        a {
-            padding-right: 105px !important;
-
-            &:hover {
-                color: #000000;
-            }
-        }
-
-        li {
-            &:last-child {
+        ul {
+            li {
                 a {
-                    padding-right: 0 !important;
+                    padding-right: 105px !important;
+
+                    &:hover {
+                        color: #000000;
+                    }
+                }
+
+                &:last-child {
+                    a {
+                        padding-right: 0 !important;
+                    }
                 }
             }
         }
@@ -41,12 +44,6 @@ header {
 }
 
 // header end
-
-
-// banner start
-
-// banner end
-
 
 // blog start
 .blog_wrapper {
@@ -93,43 +90,40 @@ header {
 // contents end
 
 // newsletter start
+.newsletter {
+    padding: 110px 0;
+    background-color: $bgc2;
+}
 
-    .newsletter{
-        padding: 110px 0;
-        background-color: $bgc2;
+.newsWrapper {
+
+    // position: absolute;
+    h2 {
+        margin-bottom: 60px;
     }
 
-    .newsWrapper{
-        // position: absolute;
-        h2{
-            margin-bottom: 60px;
-        }
-        input{
-            padding: 6px 34px 6px 0px;
-            border: none;
-            border-bottom: 1px solid black;
-            background: none;
-            width: 100%;
+    input {
+        padding: 6px 34px 6px 0px;
+        border: none;
+        border-bottom: 1px solid black;
+        background: none;
+        width: 100%;
 
-        }
-
-        img{
-            top: 107px;
-            left: 352px;
-        }
     }
+
+    img {
+        top: 107px;
+        left: 352px;
+    }
+}
 
 // newsletter end
 
-
-// contents 2 start
-// contents 2 end
-
 // button start
-
-.button{
+.button {
     margin: 140px 0;
-    button{
+
+    button {
         background: none;
         border: none;
         border: 1px solid $fontColor1;
@@ -137,18 +131,28 @@ header {
     }
 }
 
-.size20{
+.size20 {
     font-size: 20px;
     color: $fontColor1;
+
+    &:hover {
+        color: #000000 !important;
+        display: inline-block;
+    }
 }
 
 // button end
 
 // footer start
-
-footer{
+footer {
     padding: 30px 0 10px 0;
     background-color: $bgc2;
+    color: black;
+
+    i{
+        color: $fontColor1;
+        padding-left: 10px;
+    }
 }
 
 // footer end
