@@ -14,3 +14,10 @@ font-family: 'Playfair Display', serif;
 font-family: 'Inconsolata', monospace;
 
 font-family: 'Ubuntu', sans-serif;
+
+
+icons
+===========================================
+<i class="fab fa-facebook-f"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-instagram"></i>

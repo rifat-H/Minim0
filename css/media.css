@@ -44,6 +44,9 @@
     padding-bottom: 25px;
     font-size: 33px;
   }
+  .button button {
+    padding: 15px 25px 15px 25px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -60,6 +63,9 @@
   }
   .item_wrapper h2 {
     font-size: 28px;
+  }
+  .button button {
+    padding: 15px 25px 15px 25px;
   }
 }
 /*# sourceMappingURL=media.css.map */
